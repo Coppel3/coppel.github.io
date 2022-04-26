@@ -1,0 +1,131 @@
+boby{
+    background:white;
+}
+h1{
+  color:#B4B81F;
+  font-family: Arial;
+  font-size: 50px;
+  text-align: center;
+ }
+ p{
+    color:#black;
+  font-family: Arial;
+  font-size: 10px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+ }
+ table{
+   color:black;
+  font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  font-weight: bold;
+  font-style: italic;
+  border:2;
+
+  border-color:black;
+  
+  }
+ tr{
+   color:#B4B81F;
+   font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  background-color:white;
+  border-color:black;
+  border-style:solid;
+  
+  }
+  th{
+     color:#95A837;
+	 font-family: Arial;
+  font-size: 20px;
+  text-align: center;
+  background-color:white;
+  border-color:black;
+  border-style:solid;
+  
+  }
+  td{
+	  color:black;
+	  background-color:white;
+  border-color:black;
+  border-style:solid;
+
+} 
+  Letra{
+  color:black;
+  font-family: times new roman;
+  font-size:15 px;
+  text-align: center;
+  }
+/*Esta clase es para quitar el borde y fondo a las tablas*/
+.sin{
+border-style:transparent;
+border:0;
+background-color:transparent;
+height:10%;
+  width:10%;
+}
+
+.div1{
+background: linear-gradient(to bottom, #4552E8, #579BF5);
+border-radius: 20 px;
+border: 5px solid #96ECDE;
+}
+.div2{
+background: linear-gradient(to bottom, #DEE60A, #DEE34C);
+border-radius: 20 px;
+border: 5px solid #C09831;
+}
+.div3{
+background: linear-gradient(to bottom, #136D7A, #26B0C2);
+border-radius: 20 px;
+border: 5px solid #0A272A;
+}
+.div3{
+background: linear-gradient(to bottom, #95851F , #D2BC2E);
+border-radius: 20 px;
+border: 5px solid #5A5011;
+}
+
+.caja{
+height: 300px;
+width: 250;
+background: #eee;
+border:1 px solid #eee;
+margin: 5px;
+color:black;
+text-align:center;
+font-family:"Lato", sans-serif;
+ display:inline-block;
+}
+
+.caja:hover{
+  /*Agregar sombra al div*/
+  /*       x y radio color*/
+  box-shadow:0 0 10px red;
+  /*Cambia la escala de tamaño de la caja*/
+  transform: scale(1.3);
+}
+
+.caja-texto{
+   padding-bottom:5px;
+   padding-top:2px;
+   font-size:15px;
+   color: #5A5741 ;
+   font-weight:bold;
+}
+
+.caja-adiciona{
+ padding-top:2px;
+   font-size:15px;
+}
+@font-face{
+     font-family:"mifuente";
+	 src: url(Papernotes.ttf);
+}
+#fuente-Papernotes{
+     font-family:"mifuente"
+}
